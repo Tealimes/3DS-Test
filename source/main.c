@@ -1,4 +1,6 @@
 #include <3ds.h>
+#include <citro2d.h>
+#include <citro3d.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -7,7 +9,7 @@ int main() {
   gfxInitDefault();
   consoleInit(GFX_TOP, NULL);
 
-  printf("JOE\n");
+  printf("That's a wrap\n");
   printf("Press start to exit\n");
 
   while (aptMainLoop) {
