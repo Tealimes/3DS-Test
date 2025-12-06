@@ -1,7 +1,14 @@
 #folders
 .vs/
 .vscode/
+build/
 
 # Executables
 *.exe
+*.out
+*.app
 *.3dsx
+*.elf
+*.smdh
+*.bat
+*.sb3
